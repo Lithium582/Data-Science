@@ -1,0 +1,38 @@
+25/06
+Crear ambiente CONDA:
+--------------
+conda create --name [nombre]
+
+Activar ambiente
+--------------
+conda activate [nombre]
+	Si falla, ejecutar "conda init" y luego reiniciar el CMD
+
+Para salir:
+conda deactivate
+
+Para ver los entornos:
+conda info --envs
+
+28/06
+Instalar cosas:
+----------------
+conda install [nombrepaquete]
+
+iniciar Jupyter:
+------------------
+jupyter notebook
+
+
+JUPYTER:
+____________________________________
+Comandos mágicos
+- %run script.py --> ejecutar el script.py
+- len? --> muestra la documentación de la función "len"
+- Si querés saber cuanto tiempo tarda en correr tu código podés usar %time, %timeit y %%time.
+- El comando %timeit es más preciso porque corre muchas veces el mismo código para calcular el tiempo de ejecución de forma más precisa
+- El comando %%time es similar a %time pero lo usamos para todo un bloque de código
+- Uno de los comandos más útiles y simples es el de %load_ext autoreload. Lo que este comando nos permite es que cuando se haga una modificación en algún código referenciado, automáticamente se reinicie el kernel de iPython. De otra forma quedaría referenciado el código viejo.
+- 
+
+
